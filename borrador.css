@@ -1,0 +1,706 @@
+
+.woocommerce .quantity input.qty, .woocommerce .quantity .minus, .woocommerce .quantity .plus {
+    place-content: center;
+}
+
+
+.minus, .woocommerce .quantity .plus .qty {
+    background-color: black;
+}
+
+.asp-social-icons .social-icons li:hover a.google-plus,
+footer#colophon .asp-social-icons li:hover a.google-plus{
+	background-color:#DD4B39;
+}
+
+.asp-social-icons .social-icons li a.google-plus span{
+	background-color:#DD4B39;
+}
+
+/* .woocommerce .quantity {
+    border: 2px solid #eee !important;
+    width: 128px !important;
+    display: inline-block;
+} */
+
+.woocommerce .quantity input.qty,
+.woocommerce .quantity .minus,
+.woocommerce .quantity .plus {
+    line-height: 16px;
+    height: 40px !important;
+    background-color: #fff !important;
+    color: inherit !important;
+    padding: 0 !important;
+    float: left;
+    font-size: 18px;
+    border-radius: 0px !important;
+}
+
+.woocommerce .quantity .minus,
+.woocommerce .quantity .plus {
+    border: none !important;
+    cursor: pointer;
+    width: 40px !important;
+}
+
+.woocommerce .quantity .minus:hover,
+.woocommerce .quantity .plus:hover {
+    background-color: #eee !important;
+}
+
+
+
+
+/* Quantity plus minus */
+.pp_woocommerce .quantity .minus,
+.pp_woocommerce .quantity .plus,
+.woocommerce #content .quantity .minus, 
+.woocommerce #content .quantity .plus, 
+.woocommerce .quantity .minus, 
+.woocommerce .quantity .plus, 
+.woocommerce-page #content .quantity .minus, 
+.woocommerce-page #content .quantity .plus, 
+.woocommerce-page .quantity .minus, 
+.woocommerce-page .quantity .plus{
+	background:none;
+	box-shadow:none;
+	text-shadow:none;
+	border-width:1px;border-style:solid;
+	border-radius:0;
+	cursor:pointer;
+}
+.pp_woocommerce .quantity .minus:hover,
+.pp_woocommerce .quantity .plus:hover,
+.woocommerce #content .quantity .minus:hover, 
+.woocommerce #content .quantity .plus:hover, 
+.woocommerce .quantity .minus:hover, 
+.woocommerce .quantity .plus:hover, 
+.woocommerce-page #content .quantity .minus:hover, 
+.woocommerce-page #content .quantity .plus:hover, 
+.woocommerce-page .quantity .minus:hover, 
+.woocommerce-page .quantity .plus:hover,
+.pp_woocommerce .quantity .minus:focus,
+.pp_woocommerce .quantity .plus:focus,
+.woocommerce #content .quantity .minus:focus, 
+.woocommerce #content .quantity .plus:focus, 
+.woocommerce .quantity .minus:focus, 
+.woocommerce .quantity .plus:focus, 
+.woocommerce-page #content .quantity .minus:focus, 
+.woocommerce-page #content .quantity .plus:focus, 
+.woocommerce-page .quantity .minus:focus, 
+.woocommerce-page .quantity .plus:focus{
+	background-image:none;
+}
+.pp_woocommerce .group_table .quantity .minus, 
+.pp_woocommerce .group_table .quantity .plus, 
+.woocommerce #content .group_table .quantity .minus, 
+.woocommerce #content .group_table .quantity .plus, 
+.woocommerce .group_table .quantity .minus, 
+.woocommerce .group_table .quantity .plus, 
+.woocommerce-page #content .group_table .quantity .minus, 
+.woocommerce-page #content .group_table .quantity .plus, 
+.woocommerce-page .group_table .quantity .minus, 
+.woocommerce-page .group_table .quantity .plus{
+	height:16px;
+	width:20px;
+	line-height:14px;
+}
+.pp_woocommerce .quantity .minus, 
+.pp_woocommerce .quantity .plus, 
+.woocommerce #content .quantity .minus, 
+.woocommerce #content .quantity .plus, 
+.woocommerce .quantity .minus, 
+.woocommerce .quantity .plus, 
+.woocommerce-page #content .quantity .minus, 
+.woocommerce-page #content .quantity .plus, 
+.woocommerce-page .quantity .minus, 
+.woocommerce-page .quantity .plus{
+	border-width:1px;
+	border-style:solid;
+	width:30px;
+	height:21px;
+	line-height:18px;
+	text-align:center;
+	display:block;
+	top:0;
+	left:auto;
+	right:0;/* rtl */
+	bottom:auto;
+	padding:0;
+	margin:0;
+	z-index:1;
+}
+.pp_woocommerce .quantity .minus, 
+.woocommerce #content .quantity .minus,
+.woocommerce .quantity .minus, 
+.woocommerce-page #content .quantity .minus, 
+.woocommerce-page .quantity .minus{
+	bottom:0;
+	top:auto;
+}
+.pp_woocommerce .quantity .minus:hover, 
+.pp_woocommerce .quantity .plus:hover, 
+.woocommerce #content .quantity .minus:hover, 
+.woocommerce #content .quantity .plus:hover, 
+.woocommerce .quantity .minus:hover, 
+.woocommerce .quantity .plus:hover, 
+.woocommerce-page #content .quantity .minus:hover, 
+.woocommerce-page #content .quantity .plus:hover, 
+.woocommerce-page .quantity .minus:hover, 
+.woocommerce-page .quantity .plus:hover{
+	z-index:3
+}
+
+
+
+
+/* 
+.woocommerce-page .shop_table .quantity .plus,
+.woocommerce-page .shop_table .quantity .minus{
+	width:21px;
+}
+.woocommerce-page .shop_table div.quantity{
+	width:70px;
+	margin:0 auto;
+	float:none;
+	padding-right:20px;
+}
+.woocommerce-page .shop_table div.quantity input[type="number"]{
+	text-align:center;
+} */
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*- XV. CLOUD ZOOM ----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+	border-width: 1px;
+	border-style:solid;
+	margin:0;	/* Set this to minus the border thickness. */
+	background-color:#fff;
+	cursor:move;
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	letter-spacing:0.6px;
+	top:0px;
+}
+
+/* cloud zoom wrapper styles */
+.cloud-zoom-wrap {
+	top:0;
+	z-index:997;
+	position:relative;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+	border-width: 1px;
+	border-style:solid;
+	overflow:hidden;
+	margin:4px 0 0 0;
+	background-color:#fff;
+}
+/* This is the loading message */
+.cloud-zoom-loading {
+	color:white;
+	background:#222;
+	padding:3px;
+	text-transform:uppercase;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/*- XVI. PAGE TEMPLATE ------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+
+.woocommerce #content table.cart .quantity .minus, 
+.woocommerce #content table.cart .quantity .plus, 
+.woocommerce table.cart .quantity .minus, 
+.woocommerce table.cart .quantity .plus, 
+.woocommerce-page #content table.cart .quantity .minus, 
+.woocommerce-page #content table.cart .quantity .plus, 
+.woocommerce-page table.cart .quantity .minus, 
+.woocommerce-page table.cart .quantity .plus{
+    width:18px;
+    height:18px;
+    position:absolute;
+    top:0;
+    left:auto;
+    right:0;
+    bottom:auto;
+    z-index:1;
+    padding:0;
+} 
+.woocommerce #content .quantity .minus:hover, 
+.woocommerce #content .quantity .plus:hover, 
+.woocommerce .quantity .minus:hover, 
+.woocommerce .quantity .plus:hover, 
+.woocommerce-page #content .quantity .minus:hover, 
+.woocommerce-page #content .quantity .plus:hover, 
+.woocommerce-page .quantity .minus:hover, 
+.woocommerce-page .quantity .plus:hover{
+    z-index:2;
+}
+.woocommerce #content table.cart .quantity .minus, 
+.woocommerce table.cart .quantity .minus, 
+.woocommerce-page #content table.cart .quantity .minus, 
+.woocommerce-page table.cart .quantity .minus{
+    top:auto;
+    bottom:0;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*- 3. WIDGET SOCIAL --------------------------------------------------------------------------------------------------*/
+.asp-social-icons .social-icons{
+	padding-top:15px;
+}
+.asp-social-icons:after{
+	display:table;
+	clear:both;
+	content:"";
+}
+.asp-social-icons .social-icons{
+	float:left;
+	width:100%;
+	display:inline-block;
+}
+.asp-social-icons .list-icons{
+	margin:0 -5px;
+}
+.asp-social-icons .social-icons li,
+.asp-social-icons .social-icons li a{
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	padding:0;
+	display:inline-block;
+	position:relative;
+}
+.asp-social-icons .social-icons.style-2 li a{
+	border-radius:100%;
+}
+.asp-social-icons .asp-tooltip{
+	position:absolute;
+	content:"";
+	top:-30px;
+	left:50%;
+	margin-left:-30px;
+	height:20px;
+	opacity:0;
+	visibility:hidden;
+	padding:2px 5px;
+	line-height:16px;
+	width:66px;
+	font-size:10px;
+	transition:all 200ms ease 0s;
+}
+.asp-social-icons .asp-tooltip:before{
+	font-family:  "Font Awesome 5 Free";
+	content: "\f150";
+	position:absolute;
+	bottom:-9px;
+	left:50%;
+	font-size:12px;
+	margin-left:-5px;
+}
+.asp-social-icons li:hover .asp-tooltip{
+	opacity:1;
+	top:-24px;
+	visibility:visible;
+}
+.asp-social-icons .social-icons li{
+	margin:2px 5px 7px 5px;
+	float:left;/* rtl */
+}
+.asp-social-icons .social-icons li i{
+	font-size:15px;
+	line-height:30px;
+}
+.asp-social-icons .social-desc{
+	margin-bottom:20px;
+}
+.asp-social-icons .social-icons li a:hover i{
+	color:#fff !important;
+}
+.asp-social-icons .social-icons li:hover a.facebook,
+footer#colophon .asp-social-icons li:hover a.facebook{
+	background-color:#3B5998;
+}
+.asp-social-icons .social-icons li:hover a.twitter,
+footer#colophon .asp-social-icons li:hover a.twitter{
+	background-color:#2CAAE1;
+}
+.asp-social-icons .social-icons li:hover a.flickr,
+footer#colophon .asp-social-icons li:hover a.flickr{
+	background-color:#E30761;
+}
+.asp-social-icons .social-icons li:hover a.vimeo,
+footer#colophon .asp-social-icons li:hover a.vimeo{
+	background-color:#17B3E8;
+}
+.asp-social-icons .social-icons li:hover a.feedburner,
+footer#colophon .asp-social-icons li:hover a.feedburner{
+	background-color:#176DBA;
+}
+.asp-social-icons .social-icons li a.facebook span{
+	background-color:#3B5998;
+}
+.asp-social-icons .social-icons li a.twitter span{
+	background-color:#2CAAE1;
+}
+.asp-social-icons .social-icons li a.flickr span{
+	background-color:#E30761;
+}
+.asp-social-icons .social-icons li a.vimeo span{
+	background-color:#17B3E8;
+}
+.asp-social-icons .social-icons li a.feedburner span{
+	background-color:#176DBA;
+}
+.asp-social-icons .social-icons li a.facebook span:before{
+	color:#3B5998;
+}
+.asp-social-icons .social-icons li a.twitter span:before{
+	color:#2CAAE1;
+}
+.asp-social-icons .social-icons li a.google-plus span:before{
+	color:#DD4B39;
+}
+.asp-social-icons .social-icons li a.flickr span:before{
+	color:#E30761;
+}
+.asp-social-icons .social-icons li a.vimeo span:before{
+	color:#17B3E8;
+}
+.asp-social-icons .social-icons li a.feedburner span:before{
+	color:#176DBA;
+}
+.asp-social-icons .social-icons li a.youtube span{
+	background-color:#CC181E;
+}
+.asp-social-icons .social-icons li a.viber span{
+	background-color:#7C529E;
+}
+.asp-social-icons .social-icons li a.skype span{
+	background-color:#009EE5;
+}
+.asp-social-icons .social-icons li a.instagram span{
+	background-color:#125688;
+}
+.asp-social-icons .social-icons li a.youtube span:before{
+	color:#CC181E;
+}
+.asp-social-icons .social-icons li a.viber span:before{
+	color:#7C529E;
+}
+.asp-social-icons .social-icons li a.skype span:before{
+	color:#009EE5;
+}
+.asp-social-icons .social-icons li a.instagram span:before{
+	color:#125688;
+}
+.asp-social-icons .social-icons li:hover a.youtube,
+footer#colophon .asp-social-icons li:hover a.youtube{
+	background-color:#CC181E;
+}
+.asp-social-icons .social-icons li:hover a.viber,
+footer#colophon .asp-social-icons li:hover a.viber{
+	background-color:#7C529E;
+}
+.asp-social-icons .social-icons li:hover a.skype,
+footer#colophon .asp-social-icons li:hover a.skype{
+	background-color:#009EE5;
+}
+.asp-social-icons .social-icons li:hover a.instagram,
+footer#colophon .asp-social-icons li:hover a.instagram{
+	background-color:#125688;
+}
+
+/* Style 3 */
+footer .asp-social-icons .social-icons.style-3{
+	padding-top:0;
+}
+.asp-social-icons .social-icons.style-3 .list-icons{
+	margin:0;
+}
+.asp-social-icons .social-icons.style-3 li,
+.asp-social-icons .social-icons.style-3 li a{
+	width:auto;
+	height:auto;
+	text-align:inherit;
+	line-height:inherit;
+	background:transparent !important;
+}
+.asp-social-icons .social-icons.style-3 li a:hover{
+	text-decoration:none;
+}
+.asp-social-icons .social-icons.style-3 li a span{
+	position:static;
+	opacity:1;
+	margin:0;
+	height:auto;
+	width:auto;
+	line-height:inherit;
+	font-size:inherit;
+	padding:0;
+	visibility:visible;
+	background:transparent !important;
+}
+.asp-social-icons .social-icons.style-3 li{
+	width:100%;
+	display:inline-block;
+	margin:0 0 10px 0;
+}
+.asp-social-icons .social-icons.style-3 li a i{
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin-right:10px;/* rtl */
+}
+.asp-social-icons .social-icons.style-3 li a span:before{
+	display:none;
+}
+.asp-social-icons .social-icons.style-3 li a.facebook:hover i,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.facebook:hover i{
+	background-color:#3B5998;
+}
+.asp-social-icons .social-icons.style-3 li a.twitter:hover i,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.twitter:hover i{
+	background-color:#2CAAE1;
+}
+.asp-social-icons .social-icons.style-3 li a.google-plus:hover i,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.google-plus:hover i{
+	background-color:#DD4B39;
+}
+.asp-social-icons .social-icons.style-3 li a.flickr:hover i,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.flickr:hover i{
+	background-color:#E30761;
+}
+.asp-social-icons .social-icons.style-3 li a.vimeo:hover i,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.vimeo:hover i{
+	background-color:#17B3E8;
+}
+.asp-social-icons .social-icons.style-3 li a.feedburner:hover i,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.feedburner:hover i{
+	background-color:#176DBA;
+}
+.asp-social-icons .social-icons.style-3 li a.youtube:hover i
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.youtube:hover i{
+	background-color:#CC181E;
+}
+.asp-social-icons .social-icons.style-3 li a.viber:hover i
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.viber:hover i{
+	background-color:#7C529E;
+}
+.asp-social-icons .social-icons.style-3 li a.skype:hover i
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.skype:hover i{
+	background-color:#009EE5;
+}
+.asp-social-icons .social-icons.style-3 li a.instagram:hover i
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.instagram:hover i{
+	background-color:#125688;
+}
+/* Text Color */
+.asp-social-icons .social-icons.style-3 li a.facebook:hover span,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.facebook:hover span{
+	color:#3B5998;
+}
+.asp-social-icons .social-icons.style-3 li a.twitter:hover span,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.twitter:hover span{
+	color:#2CAAE1;
+}
+.asp-social-icons .social-icons.style-3 li a.google-plus:hover span,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.google-plus:hover span{
+	color:#DD4B39;
+}
+.asp-social-icons .social-icons.style-3 li a.flickr:hover span,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.flickr:hover span{
+	color:#E30761;
+}
+.asp-social-icons .social-icons.style-3 li a.vimeo:hover span,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.vimeo:hover span{
+	color:#17B3E8;
+}
+.asp-social-icons .social-icons.style-3 li a.feedburner:hover span,
+footer#colophon .asp-social-icons .social-icons.style-3 li a.feedburner:hover span{
+	color:#176DBA;
+}
+.asp-social-icons .social-icons.style-3 li a.youtube:hover span
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.youtube:hover span{
+	color:#CC181E;
+}
+.asp-social-icons .social-icons.style-3 li a.viber:hover span
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.viber:hover span{
+	color:#7C529E;
+}
+
+.asp-social-icons .social-icons.style-3 li a.skype:hover span
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.skype:hover span{
+	color:#009EE5;
+}
+
+.asp-social-icons .social-icons.style-3 li a.instagram:hover span
+, footer#colophon .asp-social-icons .social-icons.style-3 li a.instagram:hover span{
+	color:#125688;
+}
+/* Footer */
+.footer-social-center {
+	text-align:center;
+	margin-bottom:20px;
+}
+body .asp-footer-block .footer-social-center .widget-container{
+	display:inline-block;
+	margin:0;
+}
+
+
+
+/* Product detail social */
+.social-sharing > .print,
+.social-sharing > .email{
+	display:inline-block;
+	float:left;
+	margin-right:30px; /* rtl */
+	padding-right:30px; /* rtl */
+	border-width:0 1px 0 0;
+	border-style:solid;
+	line-height:0;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+.social-sharing > .print i,
+.social-sharing > .email i{
+	margin-right:10px /* rtl */
+}
+.social-sharing > .print a:hover,
+.social-sharing > .email a:hover{
+	text-decoration:none;
+}
+.asp-col-18 div.product .asp-social-sharing{
+	width:100%;
+	display:inline-block;
+	margin-top:15px;
+}
+.asp-col-18 .social-sharing > .email{
+	border:0;
+}
+div.product .social-sharing .asp-social-sharing li.facebook:hover a{
+	color:#3B5998;
+}
+div.product .social-sharing .asp-social-sharing li.twitter:hover a{
+	color:#2CAAE1;
+}
+div.product .social-sharing .asp-social-sharing li.pinterest:hover a{
+	color:#CA1517;
+}
+div.product .social-sharing .asp-social-sharing li.google-plus:hover a{
+	color:#DD4B39;
+}
+div.product .social-sharing .asp-social-sharing li.linkedin:hover a{
+	color:#0177B5;
+}
+div.product .social-sharing .asp-social-sharing li.reddit:hover a{
+	color:#516AE8;
+}
+
+/* Blog social */
+/* style 2 */
+.social-sharing.style-2 .asp-social-sharing li a{
+	width:30px;
+	height:30px;
+	display:inline-block;
+	text-align:center;
+	line-height:26px;
+	border-radius:100%;
+	overflow:hidden;
+	margin-right:10px /* rtl */
+}
+.social-sharing.style-2 .asp-social-sharing li:last-child a{
+	margin-right:0; /* rtl */
+}
+.social-sharing.style-2 .asp-social-sharing li.facebook a:hover{
+	background:#3B5998;
+	color:#fff;
+}
+.social-sharing.style-2 .asp-social-sharing li.twitter a:hover{
+	background:#2CAAE1;
+	color:#fff;
+}
+.social-sharing.style-2 .asp-social-sharing li.google-plus a:hover{
+	background:#DD4B39;
+	color:#fff;
+}
+.social-sharing.style-2 .asp-social-sharing li.linkedin a:hover{
+	background:#0177B5;
+	color:#fff;
+}
+.social-sharing.style-2 .asp-social-sharing li.pinterest a:hover{
+	background:#CA1517;
+	color:#fff;
+}
+.social-sharing.style-2 .asp-social-sharing li.reddit a:hover{
+	background:#516AE8;
+	color:#fff;
+}
+/* end style 2 */
+.social-sharing .asp-social-sharing li.facebook a:hover{
+	color:#3B5998;
+}
+.social-sharing .asp-social-sharing li.twitter a:hover{
+	color:#2CAAE1;
+}
+.social-sharing .asp-social-sharing li.google-plus a:hover{
+	color:#DD4B39;
+}
+.social-sharing .asp-social-sharing li.linkedin a:hover{
+	color:#0177B5;
+}
+.social-sharing .asp-social-sharing li.pinterest a:hover{
+	color:#CA1517;
+}
+.social-sharing .asp-social-sharing li.reddit a:hover{
+	color:#516AE8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+1.1.5.8  disable admin page aspace_options
+	/* self::$welcome = new Redux_Welcome();
+			new Redux_Rest_Api_Builder( $this ); */
+
+1.1.5.8 disable settings link
+	//add_filter( 'network_admin_plugin_action_links', array( $this, 'add_settings_link' ), 1, 2 );
+			//add_filter( 'plugin_action_links', array( $this, 'add_settings_link' ), 1, 2 );
+
+
+
+            
